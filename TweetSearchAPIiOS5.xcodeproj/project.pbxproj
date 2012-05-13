@@ -15,6 +15,12 @@
 		66338976155FABBD00D24625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338975155FABBD00D24625 /* AppDelegate.m */; };
 		66338979155FABBD00D24625 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66338977155FABBD00D24625 /* MainStoryboard.storyboard */; };
 		6633897C155FABBD00D24625 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6633897B155FABBD00D24625 /* ViewController.m */; };
+		66338983155FAE3100D24625 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66338982155FAE3100D24625 /* Accounts.framework */; };
+		66338985155FAE3900D24625 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66338984155FAE3900D24625 /* Twitter.framework */; };
+		66338988155FAE8700D24625 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66338987155FAE8700D24625 /* SecondViewController.m */; };
+		6633898A155FBCFD00D24625 /* shadowview.png in Resources */ = {isa = PBXBuildFile; fileRef = 66338989155FBCFD00D24625 /* shadowview.png */; };
+		6633898C155FBD6500D24625 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6633898B155FBD6500D24625 /* QuartzCore.framework */; };
+		6633898E155FBE1100D24625 /* tweetSearchListReafMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6633898D155FBE1100D24625 /* tweetSearchListReafMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +28,22 @@
 		66338965155FABBD00D24625 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66338967155FABBD00D24625 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		66338969155FABBD00D24625 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6633896D155FABBD00D24625 /* TweetSearchAPIiOS5-Info.plist */ = {isa = PBXFileReference; path = "TweetSearchAPIiOS5-Info.plist"; sourceTree = "<group>"; };
+		6633896D155FABBD00D24625 /* TweetSearchAPIiOS5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetSearchAPIiOS5-Info.plist"; sourceTree = "<group>"; };
 		6633896F155FABBD00D24625 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66338971155FABBD00D24625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		66338973155FABBD00D24625 /* TweetSearchAPIiOS5-Prefix.pch */ = {isa = PBXFileReference; path = "TweetSearchAPIiOS5-Prefix.pch"; sourceTree = "<group>"; };
-		66338974155FABBD00D24625 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		66338973155FABBD00D24625 /* TweetSearchAPIiOS5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetSearchAPIiOS5-Prefix.pch"; sourceTree = "<group>"; };
+		66338974155FABBD00D24625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66338975155FABBD00D24625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		66338978155FABBD00D24625 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6633897A155FABBD00D24625 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6633897A155FABBD00D24625 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6633897B155FABBD00D24625 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66338982155FAE3100D24625 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		66338984155FAE3900D24625 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		66338986155FAE8700D24625 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		66338987155FAE8700D24625 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		66338989155FBCFD00D24625 /* shadowview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadowview.png; sourceTree = "<group>"; };
+		6633898B155FBD6500D24625 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6633898D155FBE1100D24625 /* tweetSearchListReafMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tweetSearchListReafMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6633898C155FBD6500D24625 /* QuartzCore.framework in Frameworks */,
+				66338985155FAE3900D24625 /* Twitter.framework in Frameworks */,
+				66338983155FAE3100D24625 /* Accounts.framework in Frameworks */,
 				66338966155FABBD00D24625 /* UIKit.framework in Frameworks */,
 				66338968155FABBD00D24625 /* Foundation.framework in Frameworks */,
 				6633896A155FABBD00D24625 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +66,9 @@
 		66338956155FABBD00D24625 = {
 			isa = PBXGroup;
 			children = (
+				6633898B155FBD6500D24625 /* QuartzCore.framework */,
+				66338984155FAE3900D24625 /* Twitter.framework */,
+				66338982155FAE3100D24625 /* Accounts.framework */,
 				6633896B155FABBD00D24625 /* TweetSearchAPIiOS5 */,
 				66338964155FABBD00D24625 /* Frameworks */,
 				66338962155FABBD00D24625 /* Products */,
@@ -77,12 +96,16 @@
 		6633896B155FABBD00D24625 /* TweetSearchAPIiOS5 */ = {
 			isa = PBXGroup;
 			children = (
+				6633898D155FBE1100D24625 /* tweetSearchListReafMe.txt */,
+				66338989155FBCFD00D24625 /* shadowview.png */,
 				66338974155FABBD00D24625 /* AppDelegate.h */,
 				66338975155FABBD00D24625 /* AppDelegate.m */,
 				66338977155FABBD00D24625 /* MainStoryboard.storyboard */,
 				6633897A155FABBD00D24625 /* ViewController.h */,
 				6633897B155FABBD00D24625 /* ViewController.m */,
 				6633896C155FABBD00D24625 /* Supporting Files */,
+				66338986155FAE8700D24625 /* SecondViewController.h */,
+				66338987155FAE8700D24625 /* SecondViewController.m */,
 			);
 			path = TweetSearchAPIiOS5;
 			sourceTree = "<group>";
@@ -150,6 +173,8 @@
 			files = (
 				66338970155FABBD00D24625 /* InfoPlist.strings in Resources */,
 				66338979155FABBD00D24625 /* MainStoryboard.storyboard in Resources */,
+				6633898A155FBCFD00D24625 /* shadowview.png in Resources */,
+				6633898E155FBE1100D24625 /* tweetSearchListReafMe.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +188,7 @@
 				66338972155FABBD00D24625 /* main.m in Sources */,
 				66338976155FABBD00D24625 /* AppDelegate.m in Sources */,
 				6633897C155FABBD00D24625 /* ViewController.m in Sources */,
+				66338988155FAE8700D24625 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
