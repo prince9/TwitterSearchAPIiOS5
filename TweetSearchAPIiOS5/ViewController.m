@@ -29,9 +29,7 @@
      //データを受け取る準備をする。receivedDataはTweet全体のデータ、userNameArrayy・tweetTextArray・iconDataArrayはユーザ名・実際のツイート・アイコン
     accountStore = [[ACAccountStore alloc] init];
     accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
-    userNameArray = [[NSMutableArray alloc] initWithCapacity:0];
-    tweetTextArray = [[NSMutableArray alloc] initWithCapacity:0];
-    iconDataArray = [[NSMutableArray alloc] initWithCapacity:0];
+ 
 
     
      //追加、これを忘れるとデータが表示できない
@@ -62,6 +60,9 @@
 
 //追加
 - (void)loadTimeline{
+	   userNameArray = [[NSMutableArray alloc] initWithCapacity:0];
+    tweetTextArray = [[NSMutableArray alloc] initWithCapacity:0];
+    iconDataArray = [[NSMutableArray alloc] initWithCapacity:0];
     [accountStore requestAccessToAccountsWithType:accountType withCompletionHandler:^(BOOL granted, NSError *error) {
         if (granted) {
             if (account == nil) {
